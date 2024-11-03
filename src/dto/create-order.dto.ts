@@ -38,7 +38,7 @@ export class CreateOrderDto {
   pickupAddress: string;
 
   @IsOptional()
-  @IsDateString()
+  @IsString()
   scheduledDate: string;
 
   @IsNotEmpty()
